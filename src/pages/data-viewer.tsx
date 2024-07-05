@@ -14,7 +14,7 @@ const DataViewer = () => {
       navigate("/");
       toast.error("Please login before accessing the data viewer page");
     }
-  }, []);
+  }, [navigate]);
   return (
     <Box sx={{ p: 5 }}>
       <h1>Posts</h1>
